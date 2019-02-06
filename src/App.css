@@ -11,11 +11,15 @@ div.image {
 
 #board {
   display: flex;
-
 }
 
 header {
   display: flex;
   justify-content: space-between;
   font-size: 2em;
+}
+
+.navbar {
+  background-color: black;
+  color: azure;
 }

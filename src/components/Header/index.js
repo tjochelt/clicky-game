@@ -3,14 +3,14 @@ import React from "react";
 function Header(props) {
   return (
     <>
-      <header>
-        <div className="title">Click-O-Matic</div>
+      <nav className="navbar navbar-inverse">
+        <div className="title">The clickiest of games</div>
         <div className="message">{props.message}</div>
         <div className="score">
-          Score {props.score} of {props.total}
+          You've guessed {props.score} of {props.total}
         </div>
-        <div className="highScore">High Score {props.highScore}</div>
-      </header>
+        <div className="highScore">High Score: {props.highScore}</div>
+      </nav>
       <br />
     </>
   );

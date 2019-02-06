@@ -8,7 +8,7 @@ function Board(props) {
           {props.images.map(image => (
             <div
               style={{ backgroundColor: image.color }}
-              className="image col-4-md"
+              className="card image col-4-md"
               id={"image-" + image}
               key={image.index}
               onClick={() => {
